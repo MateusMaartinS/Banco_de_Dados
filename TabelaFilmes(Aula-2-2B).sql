@@ -66,7 +66,7 @@ select title, replacement_cost
 	from film 
 	where replacement_cost = (select min (replacement_cost) from film) limit 1
 
-/* Apresente uma consulta com o nome e sobrenome dos clientes que mais locaram filmes
+/* 11-Apresente uma consulta com o nome e sobrenome dos clientes que mais locaram filmes
    e o valor total gasto nas locaçãoes em ordem descrecente */
 
 select * from customer;
